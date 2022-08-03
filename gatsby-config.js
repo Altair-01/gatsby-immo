@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Immo`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `My first Gatsby Site`
   },
-  plugins: ["gatsby-plugin-postcss"]
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp"
+  ]
 };
